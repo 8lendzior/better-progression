@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "better-progression:block/stripped_soul_stem",
-    "side": "better-progression:block/stripped_soul_stem"
-  }
-}
