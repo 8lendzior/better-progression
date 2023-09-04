@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "minecraft:diamond"
+  },
+  "base": {
+    "item": "better-progression:steel_axe"
+  },
+  "result": {
+    "item": "minecraft:diamond_axe"
+  }
+}

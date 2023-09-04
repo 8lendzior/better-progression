@@ -1,5 +1,6 @@
 package net.blendzior.betterprogression;
 
+import net.blendzior.betterprogression.item.BetterProgressionItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,7 +12,6 @@ public class BetterProgression implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
-		LOGGER.info("Hello Fabric world!");
+		BetterProgressionItems.registerModItems();
 	}
 }

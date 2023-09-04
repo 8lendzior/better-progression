@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "steel_ingot",
+  "key": {
+    "#": {
+      "item": "better-progression:steel_nugget"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "better-progression:steel_ingot"
+  }
+}
