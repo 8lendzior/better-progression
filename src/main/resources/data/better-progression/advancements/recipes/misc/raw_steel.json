@@ -1,12 +1,12 @@
 {
   "parent": "better-progression:recipes/root",
   "criteria": {
-    "has_raw_copper": {
+    "has_raw_iron": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:raw_copper"
+              "minecraft:raw_iron"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "better-progression:raw_brass"
+        "recipe": "better-progression:raw_steel"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_raw_copper",
+      "has_raw_iron",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "better-progression:raw_brass"
+      "better-progression:raw_steel"
     ]
   }
 }

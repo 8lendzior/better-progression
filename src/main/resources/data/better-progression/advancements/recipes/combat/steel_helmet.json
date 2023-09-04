@@ -1,12 +1,12 @@
 {
-  "parent": "minecraft:recipes/root",
+  "parent": "better-progression:recipes/root",
   "criteria": {
-    "has_gold_ingot": {
+    "has_steel_ingot": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:gold_ingot"
+              "better-progression:steel_ingot"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:golden_helmet"
+        "recipe": "better-progression:steel_helmet"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_gold_ingot",
+      "has_steel_ingot",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:golden_helmet"
+      "better-progression:steel_helmet"
     ]
   }
 }

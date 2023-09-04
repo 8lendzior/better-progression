@@ -28,7 +28,8 @@ public class BetterProgressionItems {
     public static final Item BRASS_SWORD = registerItem("brass_sword", new SwordItem(BRASS_TOOL_MATERIAL,3,-2.4F, new Item.Settings().group(BetterProgressionItemGroup.BETTER_PROGRESSION)));
     public static final Item BRASS_AXE = registerItem("brass_axe", new AxeItem(BRASS_TOOL_MATERIAL,7,-3.2F, new Item.Settings().group(BetterProgressionItemGroup.BETTER_PROGRESSION)));
     public static final Item BRASS_SHOVEL = registerItem("brass_shovel", new ShovelItem(BRASS_TOOL_MATERIAL,1.5F,-3.0F, new Item.Settings().group(BetterProgressionItemGroup.BETTER_PROGRESSION)));
-    public static final Item BRASS_HOE = registerItem("brass_hoe", new BetterProgressionHoeItem(BRASS_TOOL_MATERIAL,-2,-2.0F, new Item.Settings().group(BetterProgressionItemGroup.BETTER_PROGRESSION)));
+    public static final Item BRASS_HOE = registerItem("brass_hoe", new BetterProgressionHoeItem(BRASS_TOOL_MATERIAL,-1
+            ,-2.0F, new Item.Settings().group(BetterProgressionItemGroup.BETTER_PROGRESSION)));
 
     public static final Item RAW_STEEL = registerItem("raw_steel", new Item(new FabricItemSettings()));
     public static final Item STEEL_INGOT = registerItem("steel_ingot", new Item(new FabricItemSettings()));
@@ -44,7 +45,8 @@ public class BetterProgressionItems {
     public static final Item STEEL_SWORD = registerItem("steel_sword", new SwordItem(STEEL_TOOL_MATERIAL,3,-2.4F, new Item.Settings().group(BetterProgressionItemGroup.BETTER_PROGRESSION)));
     public static final Item STEEL_AXE = registerItem("steel_axe", new AxeItem(STEEL_TOOL_MATERIAL,6,-3.1F, new Item.Settings().group(BetterProgressionItemGroup.BETTER_PROGRESSION)));
     public static final Item STEEL_SHOVEL = registerItem("steel_shovel", new ShovelItem(STEEL_TOOL_MATERIAL,1.5F, -3.0F, new Item.Settings().group(BetterProgressionItemGroup.BETTER_PROGRESSION)));
-    public static final Item STEEL_HOE = registerItem("steel_hoe", new BetterProgressionHoeItem(STEEL_TOOL_MATERIAL,-3,-1.0F, new Item.Settings().group(BetterProgressionItemGroup.BETTER_PROGRESSION)));
+    public static final Item STEEL_HOE = registerItem("steel_hoe", new BetterProgressionHoeItem(STEEL_TOOL_MATERIAL,
+            -2,-1.0F, new Item.Settings().group(BetterProgressionItemGroup.BETTER_PROGRESSION)));
     public static final Item RAW_NETHERITE = registerItem("raw_netherite", new Item(new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {

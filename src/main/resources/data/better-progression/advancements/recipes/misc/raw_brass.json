@@ -1,12 +1,12 @@
 {
-  "parent": "minecraft:recipes/root",
+  "parent": "better-progression:recipes/root",
   "criteria": {
-    "has_paper": {
+    "has_raw_copper": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:paper"
+              "minecraft:raw_copper"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:book"
+        "recipe": "better-progression:raw_brass"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_paper",
+      "has_raw_copper",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:book"
+      "better-progression:raw_brass"
     ]
   }
 }

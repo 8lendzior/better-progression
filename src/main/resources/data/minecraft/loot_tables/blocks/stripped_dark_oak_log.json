@@ -6,6 +6,19 @@
       "conditions": [
         {
           "condition": "minecraft:survives_explosion"
+        },
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "items": [
+              "better-progression:flint_axe",
+              "better-progression:brass_axe",
+              "better-progression:steel_axe",
+              "minecraft:diamond_axe",
+              "minecraft:golden_pickaxe",
+              "minecraft:netherite_axe"
+            ]
+          }
         }
       ],
       "entries": [

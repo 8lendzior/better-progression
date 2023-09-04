@@ -1,12 +1,12 @@
 {
   "parent": "better-progression:recipes/root",
   "criteria": {
-    "has_steel_ingot": {
+    "has_flint": {
       "conditions": {
         "items": [
           {
             "items": [
-              "better-progression:steel_ingot"
+              "minecraft:flint"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "better-progression:steel_sword"
+        "recipe": "better-progression:flint_spear"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_steel_ingot",
+      "has_flint",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "better-progression:steel_sword"
+      "better-progression:flint_spear"
     ]
   }
 }

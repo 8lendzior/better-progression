@@ -1,12 +1,12 @@
 {
-  "parent": "minecraft:recipes/root",
+  "parent": "better-progression:recipes/root",
   "criteria": {
-    "has_brass_ingot": {
+    "has_steel_ingot": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:brass_ingot"
+              "better-progression:steel_ingot"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:brass_axe"
+        "recipe": "better-progression:steel_axe"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_brass_ingot",
+      "has_steel_ingot",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:brass_axe"
+      "better-progression:steel_axe"
     ]
   }
 }

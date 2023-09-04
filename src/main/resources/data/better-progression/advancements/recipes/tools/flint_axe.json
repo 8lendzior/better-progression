@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "better-progression:flint_pickaxe"
+        "recipe": "better-progression:flint_axe"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "better-progression:flint_pickaxe"
+      "better-progression:flint_axe"
     ]
   }
 }
