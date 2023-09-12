@@ -5,7 +5,8 @@
       "item": "minecraft:stick"
     },
     "X": {
-      "item": "better-progression:brass_ingot"
+      "item": "better-progression:brass_ingot",
+      "item": "create:brass_ingot"
     }
   },
   "pattern": [

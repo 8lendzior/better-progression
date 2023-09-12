@@ -9,9 +9,9 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
 public enum BetterProgressionToolMaterials implements ToolMaterial {
-    FLINT(MiningLevels.STONE, 59, 2.0f, 0.0f, 15, () -> Ingredient.ofItems(Items.FLINT)),
-    BRASS(MiningLevels.IRON, 131, 4.0f, 1.0f, 5, () -> Ingredient.ofItems(BetterProgressionItems.BRASS_INGOT)),
-    STEEL(MiningLevels.IRON, 400, 6.0f, 2.0f, 12, () -> Ingredient.ofItems(BetterProgressionItems.STEEL_INGOT));
+    FLINT(MiningLevels.IRON, 72, 3.0f, 0.0f, 15, () -> Ingredient.ofItems(Items.FLINT)),
+    BRASS(MiningLevels.IRON, 144, 5.0f, 1.0f, 15, () -> Ingredient.ofItems(BetterProgressionItems.BRASS_INGOT)),
+    STEEL(MiningLevels.IRON, 600, 7.0f, 2.0f, 12, () -> Ingredient.ofItems(BetterProgressionItems.STEEL_INGOT));
     private final int miningLevel;
     private final int itemDurability;
     private final float miningSpeed;

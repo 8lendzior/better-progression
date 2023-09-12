@@ -1,7 +1,9 @@
 {
   "replace": false,
   "values": [
-    "minecraft:coal",
-    "minecraft:charcoal"
+    "create:zinc_ore",
+    "create:deepslate_zinc_ore",
+    "create:zinc_ingot",
+    "create:raw_zinc"
   ]
 }

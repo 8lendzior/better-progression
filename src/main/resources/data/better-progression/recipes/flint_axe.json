@@ -10,7 +10,8 @@
   },
   "pattern": [
     "XX",
-    "X#"
+    "X#",
+    " #"
   ],
   "result": {
     "item": "better-progression:flint_axe"

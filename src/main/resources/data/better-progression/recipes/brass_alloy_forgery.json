@@ -1,18 +1,33 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:not",
+      "value": {
+        "condition": "fabric:all_mods_loaded",
+        "values": [
+          "alloy_forgery"
+        ]
+      }
+    }
+  ],
   "type": "alloy_forgery:forging",
   "inputs": [
     {
-      "tag": "better-progression:irons",
+      "tag": "better-progression:coppers",
       "count": 3
     },
     {
-      "tag": "better-progression:coal"
+      "tag": "better-progression:diorite"
     }
   ],
   "output": {
-    "id": "better-progression:steel_ingot",
+    "priority": [
+      "create:brass_ingot",
+      "better-progression:brass_ingot"
+    ],
+    "default": "better-progression:brass",
     "count": 1
   },
-  "min_forge_tier": 2,
-  "fuel_per_tick": 25
+  "min_forge_tier": 1,
+  "fuel_per_tick": 5
 }
