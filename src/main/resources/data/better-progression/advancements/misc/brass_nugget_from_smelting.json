@@ -1,0 +1,155 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_brass_axe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "better-progression:brass_axe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_brass_boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "better-progression:brass_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_brass_chestplate": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "better-progression:brass_chestplate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_brass_helmet": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "better-progression:brass_helmet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_brass_hoe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "better-progression:brass_hoe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_brass_horse_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "better-progression:brass_horse_armor"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_brass_leggings": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "better-progression:brass_leggings"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_brass_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "better-progression:brass_pickaxe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_brass_shovel": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "better-progression:brass_shovel"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_brass_sword": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "better-progression:brass_sword"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "better-progression:brass_nugget_from_blasting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_brass_pickaxe",
+      "has_brass_shovel",
+      "has_brass_axe",
+      "has_brass_hoe",
+      "has_brass_sword",
+      "has_brass_helmet",
+      "has_brass_chestplate",
+      "has_brass_leggings",
+      "has_brass_boots",
+      "has_brass_horse_armor",
+      "has_chainmail_helmet",
+      "has_chainmail_chestplate",
+      "has_chainmail_leggings",
+      "has_chainmail_boots",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "better-progression:brass_nugget_from_smelting"
+    ]
+  }
+}
