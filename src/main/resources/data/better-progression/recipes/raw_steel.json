@@ -1,0 +1,32 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:not",
+      "value": {
+        "condition": "fabric:all_mods_loaded",
+        "values": [
+          "create"
+        ]
+      }
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "better-progression:irons"
+    },
+    {
+      "tag": "better-progression:coals"
+    },
+    {
+      "tag": "better-progression:coals"
+    },
+    {
+      "tag": "better-progression:coals"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "better-progression:raw_steel"
+  }
+}

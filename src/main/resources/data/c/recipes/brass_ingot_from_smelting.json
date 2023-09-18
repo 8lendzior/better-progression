@@ -1,0 +1,18 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "brass_ingot",
+  "ingredient": {
+    "item": "better-progression:raw_brass"
+  },
+  "result": "create:brass_ingot"
+}

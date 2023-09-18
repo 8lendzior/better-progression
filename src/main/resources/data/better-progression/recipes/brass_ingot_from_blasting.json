@@ -1,0 +1,22 @@
+{
+  "fabric:lcad_conditions": [
+    {
+      "condition": "fabric:not",
+      "value": {
+        "condition": "fabric:all_mods_loaded",
+        "values": [
+          "alloy_forgery",
+          "create"
+        ]
+      }
+    }
+  ],
+  "type": "minecraft:blasting",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "brass_ingot",
+  "ingredient": {
+    "item": "better-progression:raw_brass"
+  },
+  "result": "better-progression:brass_ingot"
+}

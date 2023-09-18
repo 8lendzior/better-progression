@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "steel_ingot",
+  "ingredient": {
+    "item": "better-progression:raw_steel"
+  },
+  "result": "better-progression:steel_ingot"
+}

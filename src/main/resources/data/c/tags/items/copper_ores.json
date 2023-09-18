@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "create:deepslate_copper_ore",
+    "create:copper_ore"
+  ]
+}
