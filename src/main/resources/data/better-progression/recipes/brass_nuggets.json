@@ -5,7 +5,7 @@
       "value": {
         "condition": "fabric:all_mods_loaded",
         "values": [
-          "alloy_forgery"
+          "create"
         ]
       }
     }
@@ -13,20 +13,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:iron_ingot"
-    },
-    {
-      "item": "minecraft:charcoal"
-    },
-    {
-      "item": "minecraft:charcoal"
-    },
-    {
-      "item": "minecraft:charcoal"
+      "item": "better-progression:brass_ingot"
     }
   ],
   "result": {
-    "count": 1,
-    "item": "better-progression:raw_steel"
+    "count": 9,
+    "item": "better-progression:brass_nugget"
   }
 }

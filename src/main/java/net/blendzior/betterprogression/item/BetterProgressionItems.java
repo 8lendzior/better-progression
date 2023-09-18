@@ -17,6 +17,7 @@ public class BetterProgressionItems {
 
     public static final Item RAW_BRASS = registerItem("raw_brass", new Item(new FabricItemSettings()));
     public static final Item BRASS_INGOT = registerItem("brass_ingot", new Item(new FabricItemSettings()));
+    public static final Item BRASS_NUGGET = registerItem("brass_nugget", new Item(new FabricItemSettings()));
     public static final ArmorMaterial BRASS_ARMOR_MATERIAL = BetterProgressionArmorMaterials.BRASS;
     public static final Item BRASS_HELMET = registerItem("brass_helmet", new ArmorItem(BRASS_ARMOR_MATERIAL, EquipmentSlot.HEAD, new Item.Settings().group(BetterProgressionItemGroup.BETTER_PROGRESSION)));
     public static final Item BRASS_CHESTPLATE = registerItem("brass_chestplate", new ArmorItem(BRASS_ARMOR_MATERIAL, EquipmentSlot.CHEST, new Item.Settings().group(BetterProgressionItemGroup.BETTER_PROGRESSION)));

@@ -1,5 +1,5 @@
 {
-  "fabric:lcad_conditions": [
+  "fabric:load_conditions": [
     {
       "condition": "fabric:not",
       "value": {

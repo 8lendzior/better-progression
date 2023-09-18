@@ -10,12 +10,19 @@
       }
     }
   ],
-  "type": "minecraft:blasting",
-  "cookingtime": 100,
-  "experience": 0.7,
+  "type": "minecraft:crafting_shaped",
   "group": "brass_ingot",
-  "ingredient": {
-    "item": "better-progression:raw_brass"
+  "key": {
+    "#": {
+      "item": "better-progression:brass_nugget"
+    }
   },
-  "result": "better-progression:brass_ingot"
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "better-progression:brass_ingot"
+  }
 }

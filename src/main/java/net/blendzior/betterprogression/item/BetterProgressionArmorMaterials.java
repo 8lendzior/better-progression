@@ -13,7 +13,7 @@ public enum BetterProgressionArmorMaterials implements ArmorMaterial
 {
     BRASS("brass", 8, new int[]{2, 4, 5, 2}, 15, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0.0f, 0.0f,
             () -> Ingredient.ofItems(BetterProgressionItems.BRASS_INGOT)),
-    STEEL("steel", 24, new int[]{3, 5, 6, 2}, 12, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 1.0f, 0.0f,
+    STEEL("steel", 24, new int[]{2, 5, 6, 3}, 12, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 1.0f, 0.0f,
             () -> Ingredient.ofItems(BetterProgressionItems.STEEL_INGOT));
 
     private static final int[] BASE_DURABILITY;

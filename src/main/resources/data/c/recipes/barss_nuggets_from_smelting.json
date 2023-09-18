@@ -1,0 +1,43 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "item": "better-progression:brass_pickaxe"
+    },
+    {
+      "item": "better-progression:brass_shovel"
+    },
+    {
+      "item": "better-progression:brass_axe"
+    },
+    {
+      "item": "better-progression:brass_hoe"
+    },
+    {
+      "item": "better-progression:brass_sword"
+    },
+    {
+      "item": "better-progression:brass_helmet"
+    },
+    {
+      "item": "better-progression:brass_chestplate"
+    },
+    {
+      "item": "better-progression:brass_leggings"
+    },
+    {
+      "item": "better-progression:brass_boots"
+    }
+  ],
+  "result": "create:brass_nugget"
+}

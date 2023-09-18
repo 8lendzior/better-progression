@@ -1,0 +1,28 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:not",
+      "value": {
+        "condition": "fabric:all_mods_loaded",
+        "values": [
+          "grounded-forgery"
+        ]
+      }
+    }
+  ],
+  "type": "alloy_forgery:forging",
+  "inputs": [
+    {
+      "item": "minecraft:iron_ingot",
+      "count": 3
+    },
+    {
+      "item": "minecraft:charcoal"
+    }
+  ],
+  "output": {
+    "id": "better-progression:steel_ingot"
+  },
+  "min_forge_tier": 2,
+  "fuel_per_tick": 24
+}
